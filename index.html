@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>تقديم طلب توضيف</title>
   <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
   <div id="login">
@@ -14,10 +13,21 @@
       <div class="form-container">
         <h2>تقديم طلب توضيف</h2>
         <form id="signup-form" class="auth-form" onsubmit="return false">
-          <input type="email" id="signup-email" placeholder="ايميل" required>
-          <input type="password" id="signup-password" placeholder="كلمة سر" required>
+          <input type="text" id="signup-username" placeholder="اسمك الرباعي" required>
+          <input type="email" id="signup-email" placeholder="البريد الالكتروني" required>
+          <input type="password" id="signup-password" placeholder="كلمة السر" required>
+          <input type="date" id="signup-date" placeholder="تاريخ الميلاد" required>
+          <input type="text" id="signup-location" placeholder="مكان الأقامه" required>
+          <input type="text" id="signup-level" placeholder="مستواك العلمي" required>
           <button id="signup-button">تسجيل</button>
         </form>
+        <h3>شروط التقديم</h3>
+        <ul>
+          <li>أن يكون المتقدم أردني الجنسية</li>
+          <li>قد أتم الثامنة عشر من العمر</li>
+          <li>حسن السيرة والسلوك</li>
+          <li>غير محكوم بجناية أو بأي جنحة مخلة بالشرف أو الأمانة</li>
+        </ul>
       </div>
     </div>
   </div>
